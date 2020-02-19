@@ -1,0 +1,6 @@
+apps:
+  - script: ./app/index.js
+    name : Reverse Tunnel
+    instances: 1
+    exec_mode: cluster
+    args : "<<password>>"
