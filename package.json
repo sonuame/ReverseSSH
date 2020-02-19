@@ -1,0 +1,18 @@
+{
+  "name": "reversessh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "atob": "^2.1.2",
+    "node-ssh": "^7.0.0",
+    "pm2": "^4.2.3",
+    "reverse-tunnel-ssh": "^1.1.0",
+    "tunnel-ssh": "^4.1.4"
+  }
+}

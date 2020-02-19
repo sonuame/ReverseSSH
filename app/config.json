@@ -1,0 +1,19 @@
+{
+    "servers" :[
+        {
+            "id" : "alibaba",
+            "host" : "cloud.connectjs.in",
+            "username" : "sonuame",
+            "password" : "",
+            "commands" : [
+                ["netstat","-tunpl"],
+                ["disable-lsof", "-i"],
+                ["lsof", "-i:3390"]
+            ],
+            "port_forwards" : [
+                { "from" : 4000, "to": 3000 },
+                { "from" : 3390, "to": 3000 }
+            ]
+        }
+    ]
+}
