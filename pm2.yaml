@@ -1,6 +1,6 @@
 apps:
-  - script: ./app/index.js
-    name : Reverse Tunnel
+  - script: ./app/tunnel
+    name : Reverse Tunnel - Port 4000
     instances: 1
     exec_mode: cluster
-    args : "<<password>>"
+    args : "<host> <username> <password> <from-port> <to-port>"
