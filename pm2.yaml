@@ -1,5 +1,5 @@
 apps:
-  - script: ./app/tunnel
+  - script: ./app/tunnel.js
     name : Reverse Tunnel - Port 4000
     instances: 1
     exec_mode: cluster
