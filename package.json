@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start" : "node app/index",
-    "cluster" : "npx pm2 start pm2.yaml"
+    "cluster" : "npx pm2 delete all & npx pm2 start pm2.yaml"
   },
   "author": "",
   "license": "ISC",
