@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "node app/index",
-    "cluster" : "npx pm2 delete all & npx pm2 start pm2.yaml"
+    "start": "node app/index",
+    "cluster": "npx pm2 delete all & npx pm2 start pm2.yaml"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "atob": "^2.1.2",
-    "node-ssh": "^7.0.0",
+    "node-ssh": "^8.0.0",
     "pm2": "^4.2.3",
     "reverse-tunnel-ssh": "^1.1.0",
     "tunnel-ssh": "^4.1.4"
